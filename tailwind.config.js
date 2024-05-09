@@ -7,10 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage: (theme) => ({
+        portadareto: "url('/assets/portadareto.jpg')",
+        portadaretogoogle: "url('/assets/portadaretogoogle.jpg')",
+        fondomobil: "url('/assets/fondomobil.jpg')",
+        senseworkout: "url('/assets/senseworkout.jpg')",
+        senseworkoutmobil: "url('/assets/senseworkoutmobil.jpg')",
+        fondocarrousel: "url('/assets/fondocarrousel.jpg')",
+        fondocarrouselmobil: "url('/assets/fondocarrouselmobil.jpg')",
+        fondovideo: "url('/assets/fondovideo.jpg')",
+      }),
+      fontFamily: {
+        poppins: ["'Poppins'", "sans-serif"],
+      },
+
+      colors: {
+        videorepro: "#FFBA4C",
+        gris_taxagest3: "#1A1A1C",
+        azul_taxagest: "#1dc7b9",
+        gris_taxagest1: "#282828",
+        gris_taxagest2: "#1A1A1C",
       },
     },
   },
