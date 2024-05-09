@@ -1,11 +1,10 @@
 import React from 'react';
-import NavbarPrincipal from '@/components/NavbarPrincipal';
 import FooterLanding from '@/components/FooterLanding';
 
 export default function Politica() {
   return (
     <div>
-      <NavbarPrincipal />
+      
 
       <div className="px-[200px] pt-10 max-[1094px]:px-[100px] max-[778px]:px-[50px] max-[516px]:px-[20px] pb-20">
         <h1 className="text-xl font-bold mb-4">POLÍTICA DE PRIVACIDAD</h1>

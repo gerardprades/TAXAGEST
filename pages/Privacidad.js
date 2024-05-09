@@ -1,12 +1,9 @@
 import React from 'react';
-import NavbarSol from "@/components/NavbarSol"
 import FooterLanding from '@/components/FooterLanding';
-import NavbarPrincipal from '@/components/NavbarPrincipal';
 
 export default function Privacidad() {
   return (
     <div>
-      <NavbarPrincipal/>
     <div className="px-[200px] pt-10 max-[1094px]:px-[100px] max-[778px]:px-[50px] max-[516px]:px-[20px] pb-20">
       <h2 className="text-xl font-bold mb-4">POLÍTICA DE PRIVACIDAD</h2>
       <h3 className="text-lg font-semibold">INFORMACIÓN AL USUARIO</h3>
