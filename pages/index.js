@@ -140,6 +140,82 @@ const Index = () => {
         </div>
       </div>
 
+      <div className="2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[20px] max-[640px]:px-[10px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[30px] pb-[30px]  bg-neutral-300">
+        <div className="text-black text-center uppercase font-black 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+          ¿Piensas que{" "}
+          <span className="text-azul_taxagest">
+            crear un negocio inmobiliario
+          </span>{" "}
+          requiere una{" "}
+          <span className="text-azul_taxagest">
+            importante inversión, un local y una burocracia insoportable?
+          </span>
+        </div>
+
+        <div className="text-black uppercase pt-2 max-[640px]:pt-10  font-black text-center 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+          ¿Ves <span className="text-red-600">imposible</span> empezar tú solo
+          con todo el proceso de{" "}
+          <span className="text-azul_taxagest">montar un negocio?</span>
+        </div>
+
+        <div className="text-black uppercase pt-2 max-[640px]:pt-10 font-black text-center 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+          ¿Tienes un{" "}
+          <span className="text-azul_taxagest font-black uppercase">don</span>{" "}
+          para la{" "}
+          <span className="text-azul_taxagest">comunicación y ambición</span>,
+          pero no sabes por dónde empezar?
+        </div>
+      </div>
+
+      <div className="flex justify-center pt-2 pb-10 bg-neutral-300 text-center">
+        <Link
+          href="https://wa.me/message/MVBAHQYQL4Y6M1"
+          className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-black text-[25px] max-[416px]:text-[20px] max-[329px]:text-[16px] transition-transform duration-300 hover:translate-y-[-5px]"
+        >
+          ¡CONTÁCTANOS AHORA!
+        </Link>
+      </div>
+
+      <div className="2xl:px-[300px] xl:px-[200px] lg:px-[150px] md:px-[50px] sm:px-[30px] max-[640px]:px-[20px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[30px] pb-[30px]  bg-gris_taxagest2">
+        <div className="text-azul_taxagest text-center uppercase font-black text-[33px] max-[415px]:text-[28px] max-[362px]:text-[24px] max-[640px]:leading-6">
+          Esto es para ti si…
+        </div>
+
+        <li className="text-white uppercase pt-10 sm:pt-5 max-[640px]:pt-10 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          No quieres tener horarios
+        </li>
+
+        <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          Te gusta el sector inmobiliario
+        </li>
+
+        <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          Quieres emprender tu propio negocio
+        </li>
+
+        <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          Tienes un don para la comunicación
+        </li>
+
+        <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          Eres una persona ambiciosa y quieres disponer de tiempo y dinero
+        </li>
+
+        <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
+          Si eres una persona responsable y comprometida con tus resultados y
+          contigo misma
+        </li>
+      </div>
+
+      <div className="flex justify-center pt-2 pb-10 bg-gris_taxagest2 text-center">
+        <Link
+          href="https://wa.me/message/MVBAHQYQL4Y6M1"
+          className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-black text-[25px] max-[416px]:text-[20px] max-[329px]:text-[16px] transition-transform duration-300 hover:translate-y-[-5px]"
+        >
+          ¡CONTÁCTANOS AHORA!
+        </Link>
+      </div>
+
       <FooterLanding />
     </div>
   );
