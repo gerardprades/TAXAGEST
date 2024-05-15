@@ -1,9 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import Testimonios1 from "@/components/Testimonios1";
-import Testimonios2 from "@/components/Testimonios2";
-import Testimonios3 from "@/components/Testimonios3";
-import BannerLogos from "@/components/BannerLogos";
 import FooterLanding from "@/components/FooterLanding";
 import { InView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -140,8 +136,8 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[20px] max-[640px]:px-[10px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[30px] pb-[30px]  bg-neutral-300">
-        <div className="text-black text-center uppercase font-black 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+      <div className="flex flex-col sm:flex-row 2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[20px] max-[640px]:px-[10px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[30px] pb-[30px] bg-neutral-300">
+        <div className="text-black text-center uppercase font-bold sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
           ¿Piensas que{" "}
           <span className="text-azul_taxagest">
             crear un negocio inmobiliario
@@ -152,13 +148,13 @@ const Index = () => {
           </span>
         </div>
 
-        <div className="text-black uppercase pt-2 max-[640px]:pt-10  font-black text-center 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+        <div className="text-black uppercase pt-2 max-[640px]:pt-10  font-bold text-center sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
           ¿Ves <span className="text-red-600">imposible</span> empezar tú solo
           con todo el proceso de{" "}
           <span className="text-azul_taxagest">montar un negocio?</span>
         </div>
 
-        <div className="text-black uppercase pt-2 max-[640px]:pt-10 font-black text-center 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
+        <div className="text-black uppercase pt-2 max-[640px]:pt-10 font-bold text-center sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
           ¿Tienes un{" "}
           <span className="text-azul_taxagest font-black uppercase">don</span>{" "}
           para la{" "}
