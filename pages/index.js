@@ -98,12 +98,12 @@ const Index = () => {
               <div className="2xl:px-[230px] xl:px-[100px] lg:px-[30px] md:px-[30px] sm:px-[50px] max-[621px]:px-[50px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[40px]">
                 <div className="text-white font-poppins font-semibold text-center 2xl:text-[23px] xl:text-[23px] lg:text-[23px] md:text-[21px] sm:text-[19px] max-[621px]:text-[18px] max-[447px]:text-[20px]">
                   ¿Te imaginas tener{" "}
-                  <span className="text-azul_taxagest">
-                    tu negocio inmobiliario
-                  </span>{" "}
+                    <span className="text-azul_taxagest">
+                      tu negocio inmobiliario
+                    </span>{" "}
                   con resultados desde
                   <span className="text-azul_taxagest">
-                    {" "}
+                      {" "}
                     el primer momento?
                   </span>
                 </div>
@@ -115,16 +115,11 @@ const Index = () => {
 
       <div className="bg-gris_taxagest2">
         <div className="pt-6 pb-6 text-white font-poppins font-bold text-center mx-[100px] max-[797px]:mx-[50px] max-[640px]:mx-[20px] 2xl:text-[20px] xl:text-[22px] lg:text-[23px] md:text-[21px] sm:text-[19px] max-[621px]:text-[18px] max-[447px]:text-[15px]">
-          Ahora es posible, pero Hay Plazas limitadas por zonas. Puedes
-          conseguir la exclusividad de tu zona y disponer de un equipo
-          trabajando para ti.
+          Ahora es posible, pero Hay Plazas limitadas por zonas. Puedes conseguir la exclusividad de tu zona y disponer de un equipo trabajando para ti.
         </div>
 
         <div className="text-white font-poppins font-bold text-center mx-[100px] max-[797px]:mx-[50px] max-[640px]:mx-[20px] 2xl:text-[23px] xl:text-[22px] lg:text-[23px] md:text-[21px] sm:text-[19px] max-[621px]:text-[18px] max-[447px]:text-[15px]">
-          Escríbenos por <span className="text-azul_taxagest">WhatsApp</span>{" "}
-          para descubrir si hay{" "}
-          <span className="text-azul_taxagest">disponibilidad en tu zona</span>{" "}
-          con un sólo <span className="text-azul_taxagest">clic</span>
+          Escríbenos por <span className="text-azul_taxagest">WhatsApp</span> para descubrir si hay <span className="text-azul_taxagest">disponibilidad en tu zona</span> con un sólo <span className="text-azul_taxagest">clic</span>
         </div>
         <div className="flex justify-center pt-7 pb-10">
           <Link
@@ -136,34 +131,15 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row 2xl:px-[30px] xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[20px] max-[640px]:px-[10px] max-[447px]:px-[30px] max-[323px]:px-[20px] pt-[30px] pb-[30px] bg-neutral-300">
-        <div className="text-black text-center uppercase font-bold sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
-          ¿Piensas que{" "}
-          <span className="text-azul_taxagest">
-            crear un negocio inmobiliario
-          </span>{" "}
-          requiere una{" "}
-          <span className="text-azul_taxagest">
-            importante inversión, un local y una burocracia insoportable?
-          </span>
-        </div>
-
-        <div className="text-black uppercase pt-2 max-[640px]:pt-10  font-bold text-center sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
-          ¿Ves <span className="text-red-600">imposible</span> empezar tú solo
-          con todo el proceso de{" "}
-          <span className="text-azul_taxagest">montar un negocio?</span>
-        </div>
-
-        <div className="text-black uppercase pt-2 max-[640px]:pt-10 font-bold text-center sm:w-1/3 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[16px] sm:text-[19px] max-[640px]:text-[20px] max-[447px]:text-[20px] max-[640px]:leading-6">
-          ¿Tienes un{" "}
-          <span className="text-azul_taxagest font-black uppercase">don</span>{" "}
-          para la{" "}
-          <span className="text-azul_taxagest">comunicación y ambición</span>,
-          pero no sabes por dónde empezar?
-        </div>
+      <div className="w-full bg-neutral-300">
+        <img
+          src={isSmallScreen ? "/assets/banner1mobil.jpg" : "/assets/banner1.jpg"}
+          alt="Banner"
+          className=" w-full object-contain"
+        />
       </div>
 
-      <div className="flex justify-center pt-2 pb-10 bg-neutral-300 text-center">
+      <div className="flex justify-center pt-2 pb-10 bg-blanc_banner text-center">
         <Link
           href="https://wa.me/message/MVBAHQYQL4Y6M1"
           className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-black text-[25px] max-[416px]:text-[20px] max-[329px]:text-[16px] transition-transform duration-300 hover:translate-y-[-5px]"
@@ -198,8 +174,7 @@ const Index = () => {
         </li>
 
         <li className="text-white uppercase pt-2 sm:pt-5 max-[640px]:pt-5 font-black text-left 2xl:text-[22px] xl:text-[20px] lg:text-[18px] md:text-[18px] sm:text-[15px] max-[640px]:text-[14px] max-[447px]:text-[14px] max-[640px]:leading-6">
-          Si eres una persona responsable y comprometida con tus resultados y
-          contigo misma
+          Si eres una persona responsable y comprometida con tus resultados y contigo misma
         </li>
       </div>
 

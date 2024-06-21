@@ -27,6 +27,7 @@ module.exports = {
         azul_taxagest: "#1dc7b9",
         gris_taxagest1: "#282828",
         gris_taxagest2: "#1A1A1C",
+        blanc_banner: "#FEFEFE",
       },
     },
   },
