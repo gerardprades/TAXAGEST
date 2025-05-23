@@ -85,7 +85,7 @@ const Index = () => {
                 </div>
                 <div className="pt-[20px] max-[1023px]:pt-[10px] transition-transform duration-300 hover:translate-y-[-5px]">
                   <Link
-                    href="https://wa.me/message/MVBAHQYQL4Y6M1"
+                    href="https://wa.link/kgqos8"
                     className="bg-white text-black px-4 py-2 rounded-md font-bold font-poppins shadow-lg shadow-white transition-transform duration-300 hover:translate-y-[-5px]"
                   >
                     ¡CONTÁCTANOS AHORA!
@@ -123,7 +123,7 @@ const Index = () => {
         </div>
         <div className="flex justify-center pt-7 pb-10">
           <Link
-            href="https://wa.me/message/MVBAHQYQL4Y6M1"
+            href="https://wa.link/kgqos8"
             className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-azul_taxagest text-[25px] transition-transform duration-300 hover:translate-y-[-5px]"
           >
             ¡HAZ CLIC!
@@ -141,7 +141,7 @@ const Index = () => {
 
       <div className="flex justify-center pt-2 pb-10 bg-blanc_banner text-center">
         <Link
-          href="https://wa.me/message/MVBAHQYQL4Y6M1"
+          href="https://wa.link/kgqos8"
           className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-black text-[25px] max-[416px]:text-[20px] max-[329px]:text-[16px] transition-transform duration-300 hover:translate-y-[-5px]"
         >
           ¡CONTÁCTANOS AHORA!
@@ -180,7 +180,7 @@ const Index = () => {
 
       <div className="flex justify-center pt-2 pb-10 bg-gris_taxagest2 text-center">
         <Link
-          href="https://wa.me/message/MVBAHQYQL4Y6M1"
+          href="https://wa.link/kgqos8"
           className="bg-azul_taxagest text-white px-5 py-3 rounded-md font-extrabold font-poppins shadow-lg shadow-black text-[25px] max-[416px]:text-[20px] max-[329px]:text-[16px] transition-transform duration-300 hover:translate-y-[-5px]"
         >
           ¡CONTÁCTANOS AHORA!
